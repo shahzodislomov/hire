@@ -18,20 +18,21 @@
 </head>
 <body>
     <script>
+        const isMobile = window.innerWidth <= 768;
         L2Dwidget.init({
             model: {
                 jsonPath: "https://cdn.jsdelivr.net/gh/evrstr/live2d-widget-models/live2d_evrstr/koharu/model.json"
             },
             display: { 
                 position: "left", 
-                width: 200, 
-                height: 400, 
-                hOffset: 0, // Set to 0 because the iframe handles positioning
-                vOffset: 0  // Set to 0 because the iframe handles positioning
+                width: isMobile ? 120 : 200, 
+                height: isMobile ? 240 : 400, 
+                hOffset: 0,
+                vOffset: 0
             },
             mobile: { 
                 show: true, 
-                scale: 0.3, 
+                scale: 0.1,
                 motion: true 
             }
         });

@@ -26,8 +26,8 @@ const featuredProjects = [
     name: "Youtube Clone",
     description: "A modern video streaming platform inspired by YouTube. Users can browse, search, and watch videos through a responsive interface with optimized loading and smooth playback.",
     tags: ["Next.js", "React", "Tailwind CSS", "Vercel"],
-    repo: "https://youtube-clone-kueihmy0b-wenacos-projects.vercel.app",
-    iframeCover: "https://youtube-clone-kueihmy0b-wenacos-projects.vercel.app",
+    repo: "https://youtube-clone-kueihmy0b-wenacos-projects.vercel.app/",
+    iframeCover: "https://youtube-clone-kueihmy0b-wenacos-projects.vercel.app/",
   },
   {
     name: "Wenaco Taskflow (Trello Clone)",
