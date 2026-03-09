@@ -4,7 +4,7 @@ export default function Live2DWidget() {
             <iframe
                 src="/live2d.html"
                 className="w-full h-full border-0 pointer-events-auto"
-                allowtransparency="true"
+                {...{ allowtransparency: "true" } as any}
                 title="Live2D Character"
             />
         </div>

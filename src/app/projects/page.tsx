@@ -16,6 +16,13 @@ const featuredProjects = [
     iframeCover: "https://learniverse-amber.vercel.app",
   },
   {
+    name: "Bluepeak Logistics",
+    description: "Page for trucking businesses and about improving and helping the business owners.",
+    tags: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+    repo: "https://bluepeak-trucking.vercel.app/",
+    iframeCover: "https://bluepeak-trucking.vercel.app/",
+  },
+  {
     name: "Youtube Clone",
     description: "A modern video streaming platform inspired by YouTube. Users can browse, search, and watch videos through a responsive interface with optimized loading and smooth playback.",
     tags: ["Next.js", "React", "Tailwind CSS", "Vercel"],
