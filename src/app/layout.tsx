@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import RainBackground from "@/components/ui/RainBackground";
-import Live2DWidget from "@/components/ui/Live2DWidget";
-
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -90,7 +88,7 @@ export const metadata: Metadata = {
     title: "Shahzod Islomov — Software solutions, Security & Media",
     description: "Expert Full-stack Software Engineering, Ethical Hacking, and Video Editing services. Transform your digital presence with Shahzod Islomov.",
     type: "website",
-    url: "https://shahzodislomov.com", // Replace with actual domain later
+    url: "https://shahzodislomov.com", 
   },
   icons: {
     icon: "/favicon.ico",
@@ -107,7 +105,6 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased font-sans relative min-h-screen flex flex-col`}>
         <RainBackground />
         <Navbar />
-        <Live2DWidget />
         <main className="flex-1 relative z-10">{children}</main>
       </body>
     </html>
